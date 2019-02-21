@@ -12,7 +12,7 @@ def loop_iterator(number_of_times)
 end
 
 def times_iterator(number_of_times)
-  number_of_times.times do
+  7.times do
     puts = "Welcome to Flatiron School's Web Development Course!"
   end
 end
@@ -27,14 +27,14 @@ end
 
 def until_iterator(number_of_times)
   counter = 0
-  until counter == number_of_times do
+  until counter == 7
     puts = "Welcome to Flatiron School's Web Development Course!"
     counter += 1
   end
 end
 
 def for_iterator(number_of_times)
-  counter = 1..number_of_times
+  counter = 1..7
   for count in counter
     puts = "Welcome to Flatiron School's Web Development Course!"
   end
