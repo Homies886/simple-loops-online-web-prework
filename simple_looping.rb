@@ -27,9 +27,9 @@ end
 
 def until_iterator(number_of_times)
   counter = 0
-  until counter == number_of_times
-    counter += 1
+  until counter == number_of_times do
     puts = "Welcome to Flatiron School's Web Development Course!"
+    counter += 1
   end
 end
 
